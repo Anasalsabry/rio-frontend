@@ -188,7 +188,7 @@ const Products = ({ authToken, isAdmin }) => {
               <Card sx={{ maxWidth: 345 }}>
                 <CardMedia
                   sx={{ height: 200, objectFit: "cover" }}
-                  image={"https://rio-panel.com/api/"+product.image_url}
+                  image={product.image_url}
                   title="Product"
                 />
                 <CardContent sx={{ textAlign: "center" }}>
