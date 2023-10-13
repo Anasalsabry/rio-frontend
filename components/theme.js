@@ -31,7 +31,7 @@ const customTheme = createTheme({
   palette: {
     type: "dark",
     primary: {
-      main: "#5968bb",
+      main: "#2b2b2b",
       light: "#0288d1",
       dark: "#363d69",
     },
@@ -66,7 +66,7 @@ const adminTheme = createTheme({
   palette: {
     type: "dark",
     primary: {
-      main: "#5968bb",
+      main: "#2b2b2b",
       light: "#0288d1",
       dark: "#363d69",
     },
