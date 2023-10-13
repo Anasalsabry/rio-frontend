@@ -70,8 +70,12 @@ const Login = ({ authToken, isAdmin }) => {
   useEffect(() => {
     setTimeout(() => {
       if (authToken && typeof isAdmin === "boolean") {
-        if (isAdmin === true) router.push("/admin");
-        else router.push("/products");
+        if (isAdmin === true){
+          router.push("/admin");
+          } 
+        else{
+          router.push("/products");
+          } 
       }
     }, 500);
   }, [authToken, isAdmin, router]);
