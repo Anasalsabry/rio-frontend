@@ -101,7 +101,7 @@ const Login = ({ authToken, isAdmin }) => {
             marginTop: "2rem",
             marginBottom: "0.5rem",
           }}
-          src="/"
+          src="/logo.JPEG"
           alt="LOGO"
         />
         {/* <Typography component="h1" variant="h5">
