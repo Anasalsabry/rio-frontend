@@ -22,7 +22,7 @@ export default function Home() {
     >
       <Image
           width="400"
-          height="300"
+          height="400"
           style={{
             marginTop: "2rem",
             marginBottom: "0.5rem",
