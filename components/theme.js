@@ -31,7 +31,7 @@ const customTheme = createTheme({
   palette: {
     type: "dark",
     primary: {
-      main: "#386073",
+      main: "#5968bb",
       light: "#0288d1",
       dark: "#363d69",
     },
@@ -41,7 +41,7 @@ const customTheme = createTheme({
     background: {
       // default: "#002B36",
       default: "#000000",
-      paper: "#386073",
+      paper: "#2b2b2b",
     },
     text: {
       primary: "#e0e0e0",
@@ -66,16 +66,16 @@ const adminTheme = createTheme({
   palette: {
     type: "dark",
     primary: {
-      main: "#386073",
+      main: "#5968bb",
       light: "#0288d1",
       dark: "#363d69",
     },
     secondary: {
-      main: "#386073",
+      main: "#2b2b2b",
     },
     background: {
       default: "#002B36",
-      paper: "#386073",
+      paper: "#2b2b2b",
     },
     text: {
       primary: "#e0e0e0",
