@@ -109,6 +109,7 @@ const Login = ({ authToken, isAdmin }) => {
         </Typography> */}
         <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
           <TextField
+            sx={{ borderBlockColor:"#FFFFFF" ,border:1 }}
             error={Boolean(errors?.username)}
             helperText={errors?.username}
             margin="normal"
@@ -125,6 +126,7 @@ const Login = ({ authToken, isAdmin }) => {
             autoFocus
           />
           <TextField
+            sx={{ borderBlockColor:"#FFFFFF" ,border:1 }}
             error={Boolean(errors?.password)}
             helperText={errors?.password}
             margin="normal"
